@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body{
+    margin:5;
+    padding:0;
+    color:black;
+    font-size:14px;
+    width:1000px;
+}
+
+h1,h2,h3{
+    margin-top: 5;
+}
+p{
+    margin-top: 0;
+    line-height:1.6;
+}
+header{
+    background-color: #ffcccc;
+    width: 1000px;
+}
+#main{
+    width: 700px;
+    float: left;
+    text-align: left;
+    background-color: #ccffcc;
+}
+#menu{
+    width:300px;
+    float:right;
+    text-align:left;
+    background-color:#ccccff;
+    margin:0 auto;
+}
+footer{
+    width:1000px;
+    background-color:#ffccff;
+    float:left;
+}
