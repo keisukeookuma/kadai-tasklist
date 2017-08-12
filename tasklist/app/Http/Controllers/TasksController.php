@@ -101,6 +101,7 @@ class TasksController extends Controller
             'status'=>'required|max:10',
         ]);
         $task = Task::find($id);
+        $task->status = $request->status;
         $task->content = $request->content;
         $task->save();
         
