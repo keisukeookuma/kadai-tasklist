@@ -1,0 +1,229 @@
+[22-Jul-2017 01:49:04 UTC] PHP Parse error:  syntax error, unexpected '$sum' (T_VARIABLE) in php shell code on line 2
+[02-Aug-2017 12:23:46 UTC] PHP Warning:  include(/home/ubuntu/workspace/message-board/vendor/symfony/http-kernel/HttpKernelInterface.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php on line 440
+[02-Aug-2017 12:23:46 UTC] PHP Stack trace:
+[02-Aug-2017 12:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/message-board/artisan:0
+[02-Aug-2017 12:23:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/message-board/artisan:18
+[02-Aug-2017 12:23:46 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/message-board/artisan:14
+[02-Aug-2017 12:23:46 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/message-board/artisan:14
+[02-Aug-2017 12:23:46 UTC] PHP   5. Composer\Autoload\includeFile() /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php:322
+[02-Aug-2017 12:23:46 UTC] PHP   6. include() /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php:440
+[02-Aug-2017 12:23:46 UTC] PHP   7. spl_autoload_call() /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php:22
+[02-Aug-2017 12:23:46 UTC] PHP   8. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php:22
+[02-Aug-2017 12:23:46 UTC] PHP   9. Composer\Autoload\includeFile() /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php:322
+[02-Aug-2017 12:23:46 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/message-board/vendor/symfony/http-kernel/HttpKernelInterface.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php on line 440
+[02-Aug-2017 12:23:46 UTC] PHP Stack trace:
+[02-Aug-2017 12:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/message-board/artisan:0
+[02-Aug-2017 12:23:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/message-board/artisan:18
+[02-Aug-2017 12:23:46 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/message-board/artisan:14
+[02-Aug-2017 12:23:46 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/message-board/artisan:14
+[02-Aug-2017 12:23:46 UTC] PHP   5. Composer\Autoload\includeFile() /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php:322
+[02-Aug-2017 12:23:46 UTC] PHP   6. include() /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php:440
+[02-Aug-2017 12:23:46 UTC] PHP   7. spl_autoload_call() /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php:22
+[02-Aug-2017 12:23:46 UTC] PHP   8. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php:22
+[02-Aug-2017 12:23:46 UTC] PHP   9. Composer\Autoload\includeFile() /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php:322
+[02-Aug-2017 12:23:46 UTC] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 22
+[02-Aug-2017 12:23:46 UTC] PHP Stack trace:
+[02-Aug-2017 12:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/message-board/artisan:0
+[02-Aug-2017 12:23:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/message-board/artisan:18
+[02-Aug-2017 12:23:46 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/message-board/artisan:14
+[02-Aug-2017 12:23:46 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/message-board/artisan:14
+[02-Aug-2017 12:23:46 UTC] PHP   5. Composer\Autoload\includeFile() /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php:322
+[02-Aug-2017 12:23:46 UTC] PHP   6. include() /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php:440
+[06-Aug-2017 22:53:09 Asia/Tokyo] PHP Fatal error:  Class 'Collective\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[06-Aug-2017 22:53:09 Asia/Tokyo] PHP Stack trace:
+[06-Aug-2017 22:53:09 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[06-Aug-2017 22:53:09 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[06-Aug-2017 22:53:09 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[06-Aug-2017 22:53:09 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[06-Aug-2017 22:53:09 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[06-Aug-2017 22:53:09 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[06-Aug-2017 22:53:09 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[06-Aug-2017 22:53:09 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[06-Aug-2017 22:53:09 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[06-Aug-2017 22:53:39 Asia/Tokyo] PHP Fatal error:  Class 'Collective\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[06-Aug-2017 22:53:39 Asia/Tokyo] PHP Stack trace:
+[06-Aug-2017 22:53:39 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[06-Aug-2017 22:53:39 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[06-Aug-2017 22:53:39 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[06-Aug-2017 22:53:39 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[06-Aug-2017 22:53:39 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[06-Aug-2017 22:53:39 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[06-Aug-2017 22:53:39 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[06-Aug-2017 22:53:39 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[06-Aug-2017 22:53:39 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[06-Aug-2017 22:55:01 Asia/Tokyo] PHP Fatal error:  Class 'Collective\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[06-Aug-2017 22:55:01 Asia/Tokyo] PHP Stack trace:
+[06-Aug-2017 22:55:01 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[06-Aug-2017 22:55:01 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[06-Aug-2017 22:55:01 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[06-Aug-2017 22:55:01 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[06-Aug-2017 22:55:01 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[06-Aug-2017 22:55:01 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[06-Aug-2017 22:55:01 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[06-Aug-2017 22:55:01 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[06-Aug-2017 22:55:01 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[06-Aug-2017 22:59:00 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[06-Aug-2017 22:59:00 Asia/Tokyo] PHP Stack trace:
+[06-Aug-2017 22:59:00 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[06-Aug-2017 22:59:00 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[06-Aug-2017 22:59:00 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[06-Aug-2017 22:59:00 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[06-Aug-2017 22:59:00 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[06-Aug-2017 22:59:00 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[06-Aug-2017 22:59:00 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[06-Aug-2017 22:59:00 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[06-Aug-2017 22:59:00 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[06-Aug-2017 23:02:21 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[06-Aug-2017 23:02:21 Asia/Tokyo] PHP Stack trace:
+[06-Aug-2017 23:02:21 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[06-Aug-2017 23:02:21 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[06-Aug-2017 23:02:21 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[06-Aug-2017 23:02:21 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[06-Aug-2017 23:02:21 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[06-Aug-2017 23:02:21 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[06-Aug-2017 23:02:21 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[06-Aug-2017 23:02:21 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[06-Aug-2017 23:02:21 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[06-Aug-2017 23:07:24 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[06-Aug-2017 23:07:24 Asia/Tokyo] PHP Stack trace:
+[06-Aug-2017 23:07:24 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[06-Aug-2017 23:07:24 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[06-Aug-2017 23:07:24 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[06-Aug-2017 23:07:24 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[06-Aug-2017 23:07:24 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[06-Aug-2017 23:07:24 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[06-Aug-2017 23:07:24 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[06-Aug-2017 23:07:24 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[06-Aug-2017 23:07:24 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[06-Aug-2017 23:13:55 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[06-Aug-2017 23:13:55 Asia/Tokyo] PHP Stack trace:
+[06-Aug-2017 23:13:55 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[06-Aug-2017 23:13:55 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[06-Aug-2017 23:13:55 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[06-Aug-2017 23:13:55 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[06-Aug-2017 23:13:55 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[06-Aug-2017 23:13:55 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[06-Aug-2017 23:13:55 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[06-Aug-2017 23:13:55 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[06-Aug-2017 23:13:55 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[06-Aug-2017 23:40:29 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[06-Aug-2017 23:40:29 Asia/Tokyo] PHP Stack trace:
+[06-Aug-2017 23:40:29 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[06-Aug-2017 23:40:29 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[06-Aug-2017 23:40:29 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[06-Aug-2017 23:40:29 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[06-Aug-2017 23:40:29 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[06-Aug-2017 23:40:29 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[06-Aug-2017 23:40:29 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[06-Aug-2017 23:40:29 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[06-Aug-2017 23:40:29 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[06-Aug-2017 23:42:43 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[06-Aug-2017 23:42:43 Asia/Tokyo] PHP Stack trace:
+[06-Aug-2017 23:42:43 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[06-Aug-2017 23:42:43 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[06-Aug-2017 23:42:43 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[06-Aug-2017 23:42:43 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[06-Aug-2017 23:42:43 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[06-Aug-2017 23:42:43 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[06-Aug-2017 23:42:43 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[06-Aug-2017 23:42:43 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[06-Aug-2017 23:42:43 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[06-Aug-2017 23:53:35 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[06-Aug-2017 23:53:35 Asia/Tokyo] PHP Stack trace:
+[06-Aug-2017 23:53:35 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[06-Aug-2017 23:53:35 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[06-Aug-2017 23:53:35 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[06-Aug-2017 23:53:35 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[06-Aug-2017 23:53:35 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[06-Aug-2017 23:53:35 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[06-Aug-2017 23:53:35 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[06-Aug-2017 23:53:35 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[06-Aug-2017 23:53:35 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[06-Aug-2017 23:57:07 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[06-Aug-2017 23:57:07 Asia/Tokyo] PHP Stack trace:
+[06-Aug-2017 23:57:07 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[06-Aug-2017 23:57:07 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[06-Aug-2017 23:57:07 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[06-Aug-2017 23:57:07 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[06-Aug-2017 23:57:07 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[06-Aug-2017 23:57:07 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[06-Aug-2017 23:57:07 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[06-Aug-2017 23:57:07 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[06-Aug-2017 23:57:07 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[07-Aug-2017 22:50:16 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[07-Aug-2017 22:50:16 Asia/Tokyo] PHP Stack trace:
+[07-Aug-2017 22:50:16 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[07-Aug-2017 22:50:16 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[07-Aug-2017 22:50:16 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[07-Aug-2017 22:50:16 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[07-Aug-2017 22:50:16 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[07-Aug-2017 22:50:16 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[07-Aug-2017 22:50:16 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[07-Aug-2017 22:50:16 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[07-Aug-2017 22:50:16 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[07-Aug-2017 22:50:53 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[07-Aug-2017 22:50:53 Asia/Tokyo] PHP Stack trace:
+[07-Aug-2017 22:50:53 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[07-Aug-2017 22:50:53 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[07-Aug-2017 22:50:53 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[07-Aug-2017 22:50:53 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[07-Aug-2017 22:50:53 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[07-Aug-2017 22:50:53 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[07-Aug-2017 22:50:53 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[07-Aug-2017 22:50:53 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[07-Aug-2017 22:50:53 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[07-Aug-2017 22:51:00 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[07-Aug-2017 22:51:00 Asia/Tokyo] PHP Stack trace:
+[07-Aug-2017 22:51:00 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[07-Aug-2017 22:51:00 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[07-Aug-2017 22:51:00 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[07-Aug-2017 22:51:00 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[07-Aug-2017 22:51:00 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[07-Aug-2017 22:51:00 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[07-Aug-2017 22:51:00 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[07-Aug-2017 22:51:00 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[07-Aug-2017 22:51:00 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[07-Aug-2017 22:59:37 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[07-Aug-2017 22:59:37 Asia/Tokyo] PHP Stack trace:
+[07-Aug-2017 22:59:37 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[07-Aug-2017 22:59:37 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[07-Aug-2017 22:59:37 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[07-Aug-2017 22:59:37 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[07-Aug-2017 22:59:37 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[07-Aug-2017 22:59:37 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[07-Aug-2017 22:59:37 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[07-Aug-2017 22:59:37 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[07-Aug-2017 22:59:37 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[09-Aug-2017 21:08:09 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[09-Aug-2017 21:08:09 Asia/Tokyo] PHP Stack trace:
+[09-Aug-2017 21:08:09 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[09-Aug-2017 21:08:09 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[09-Aug-2017 21:08:09 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[09-Aug-2017 21:08:09 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[09-Aug-2017 21:08:09 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[09-Aug-2017 21:08:09 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[09-Aug-2017 21:08:09 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[09-Aug-2017 21:08:09 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[09-Aug-2017 21:08:09 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[09-Aug-2017 21:08:58 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[09-Aug-2017 21:08:58 Asia/Tokyo] PHP Stack trace:
+[09-Aug-2017 21:08:58 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[09-Aug-2017 21:08:58 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[09-Aug-2017 21:08:58 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[09-Aug-2017 21:08:58 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[09-Aug-2017 21:08:58 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[09-Aug-2017 21:08:58 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[09-Aug-2017 21:08:58 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[09-Aug-2017 21:08:58 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[09-Aug-2017 21:08:58 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[09-Aug-2017 21:14:12 Asia/Tokyo] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[09-Aug-2017 21:14:12 Asia/Tokyo] PHP Stack trace:
+[09-Aug-2017 21:14:12 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[09-Aug-2017 21:14:12 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[09-Aug-2017 21:14:12 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[09-Aug-2017 21:14:12 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[09-Aug-2017 21:14:12 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[09-Aug-2017 21:14:12 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[09-Aug-2017 21:14:12 Asia/Tokyo] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[09-Aug-2017 21:14:12 Asia/Tokyo] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[09-Aug-2017 21:14:12 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
